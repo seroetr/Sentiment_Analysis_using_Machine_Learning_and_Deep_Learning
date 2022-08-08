@@ -8,5 +8,6 @@
 ## Sentiment Analysis with Deep Learning using ANN and CNN in Tensorflow
 - Simple `Artificial Neural Network (ANN)` and `1D Convolutional Neural Network (CNN)` models are used to predict sentiment analysis for IMDB movei reviews, which is a binary classification problem.
 - Spacy `en_core_web_lg` pretrained model (https://spacy.io/models/en) is used to convert texts to vectors in dataframes.
+- Feature scaling is applied to X_train and X_test using MinMaxScaler before being fed inputs into the neural network.
 
 
